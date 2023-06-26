@@ -23,6 +23,7 @@ const EmailRow = ({ id, title, subject, description, time }) => {
       })
     );
     history.push("/mail");
+    window.location.reload();
   };
 
   return (

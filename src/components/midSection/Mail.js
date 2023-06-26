@@ -25,6 +25,7 @@ const Mail = () => {
   const history = useHistory();
   const handleClick = () => {
     history.push("/");
+    window.location.reload();
   };
 
   return (
